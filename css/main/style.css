@@ -1,3 +1,13 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
+p {
+  font-size: 14px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 #front-intro {
   margin: 0;
   padding: 0;
@@ -57,7 +67,7 @@
 
 /*====== about.html ======*/
 .about-bg {
-  background: url(../../img/about-bg.jpg) no-repeat fixed;
+  background: url(../../img/bg3.jpg) no-repeat fixed;
   background-size: 100% 100%; }
 
 .navbar {
@@ -80,17 +90,18 @@
   padding: 0; }
 
 .navbar-nav li {
-  padding-top: 35px;
+  padding-top: 20px;
   padding-bottom: 30px;
   cursor: pointer; }
 
 .navbar-nav > li > a {
   padding: 20px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  border-right: 1px solid #ccc;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif; }
+  /*border-right: 1px solid #ccc;*/
+  font-family: 'Helvetica Neue', Helvetica, Arial; }
+                                                /*text-transform: uppercase;*/
+  /*font-family: 'Oswald', sans-serif; }*/
 
 .navbar-nav > li > a span {
   margin: 5px 0 0 0;
@@ -98,11 +109,13 @@
   font-size: 14px;
   display: block;
   font-weight: normal;
-  font-family: arial;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
   text-transform: none; }
 
 .navbar-nav > li.active > a {
-  color: red !important; }
+  color: #002147 !important;
+  text-decoration: underline;
+}
 
 @media (max-width: 1000px) {
   .navbar-nav > li > a {
@@ -114,11 +127,11 @@
   height: 260px;
   padding: 80px 0 0 50px; }
   .caption h1 {
-    color: darkred;
-    text-transform: uppercase;
+    color: #FFFFFF;
+    /*text-transform: uppercase;*/
     font-weight: 800;
-    font-size: 36px;
-    text-shadow: 2px 2px 5px white; }
+    font-size: 24px;}
+    /*text-shadow: 2px 2px 5px white; }*/
 
 @media (max-width: 1000px) {
   .caption {
@@ -129,7 +142,8 @@
 /* ======== about-us-content ========= */
 .about-us-content {
   height: auto;
-  background: #D9D8D6;
+  /*background: #D9D8D6;*/
+  background: #FFFFFF;
   padding: 50px 0; }
 
 .img-display {
@@ -138,16 +152,21 @@
 
 /* ========= footer ============ */
 footer {
-  padding: 50px 0;
-  background: #000;
+  padding: 40px 0 10px 0;
+  /*background: #000;*/
+  background: #002147;
+
   height: auto;
-  color: #fff; }
-  footer h4 {
-    color: #fff; }
+  color: #cccccc; }
+  footer h5 {
+    font-size: 14px;
+    color: #cccccc; }
   footer p {
-    color: #fff; }
+
+    color: #cccccc; }
   footer ul li {
     list-style: none;
+    font-size: 12px;
     margin-left: -40px; }
 
 .slider-container .rslides {

@@ -1,9 +1,9 @@
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial;
+  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif;
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -71,7 +71,7 @@ p {
   background-size: 100% 50%; }
 
 .navbar {
-  min-height: 90px;
+  min-height: 50px;
   margin-bottom: 0 !important;
   background: #fff; }
 
@@ -99,7 +99,7 @@ p {
   font-size: 16px;
   font-weight: bold;
   /*border-right: 1px solid #ccc;*/
-  font-family: 'Helvetica Neue', Helvetica, Arial; }
+  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif; }
                                                 /*text-transform: uppercase;*/
   /*font-family: 'Oswald', sans-serif; }*/
 
@@ -109,7 +109,7 @@ p {
   font-size: 14px;
   display: block;
   font-weight: normal;
-  font-family: 'Helvetica Neue', Helvetica, Arial;
+  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif;
   text-transform: none; }
 
 .navbar-nav > li.active > a {
@@ -216,3 +216,72 @@ footer {
 /* =========== */
 .jobs-list ul {
   list-style-type: none; }
+
+
+.lang-bar ul{
+  list-style-type: none;
+  padding:0;
+  margin-top:10px;
+}
+
+
+.lang-bar ul li{
+  display:inline;
+  margin-top:10px;
+  padding:5px 10px;
+}
+
+.lang-link{
+  text-decoration: none;
+  color:#ccc;
+}
+
+.lang-active{
+  text-decoration: none;
+  color:#075AB2;
+}
+
+@media(max-width:765px){
+
+  .navbar-collapse{
+
+  }
+  .navbar-nav{
+
+  }
+
+  .navbar-nav li{
+    padding:10px;
+  }
+  .page-scroll a{
+  }
+
+}
+
+@media(max-width:400px){
+  .navbar-brand{
+
+  }
+
+  .navbar-nav li{
+    padding:2px;
+  }
+
+  .navbar-nav li a{
+    font-size:14px;
+  }
+
+  .navbar-brand img {
+    width:180px;
+    height:auto;
+  }
+
+  .contact-email{
+    font-size:10px;
+  }
+}
+
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}

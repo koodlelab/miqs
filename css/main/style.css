@@ -241,6 +241,11 @@ footer {
   color:#075AB2;
 }
 
+.copyright p{
+  text-align: center;
+  font-size: 10px;
+}
+
 @media(max-width:765px){
 
   .navbar-collapse{

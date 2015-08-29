@@ -27,10 +27,26 @@
         </ul>
       </div>
       <div class="col-md-3 col-sm-3 col-xs-6">
-        <a href="../en" class="lang-link">English</a> |
-        <a href="../cn" class="lang-link lang-active">中文</a>
+        <a href="" id="language-link" class="lang-link" onclick="switchLanguage()">English</a> |
+        <span class="lang-link lang-active">中文</span>
       </div>
     </div>
+    <script type="text/javascript">
+      function switchLanguage()
+      {
+        var current_href = window.location.href;
+        console.log(current_href);
+        if (current_href.indexOf("index") > -1) {
+          document.getElementById("language-link").href = "../en/index.html";
+        } else if (current_href.indexOf("careers") > -1) {
+          document.getElementById("language-link").href = "../en/careers.html";
+        } else if (current_href.indexOf("culture") > -1) {
+          document.getElementById("language-link").href = "../en/culture.html";
+        } else {
+          document.getElementById("language-link").href = "../en/index.html";
+        }
+      }
+    </script>
     <hr style="color: #cccccc;">
     <div class="copyright">
       <p>&copy;Copyright 2015 - MIQS Corporation Limited</p>

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif;
+  font-family: 'Roboto Condensed', Arial, san-serif;
 }
 
 p {
@@ -44,7 +44,6 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  font-weight: 700;
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -97,7 +96,7 @@ p {
 .navbar-nav > li > a {
   padding: 20px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: normal;
   /*border-right: 1px solid #ccc;*/
   font-family: 'Helvetica Neue', Helvetica, Arial, san-serif; }
                                                 /*text-transform: uppercase;*/
@@ -129,14 +128,14 @@ p {
   .caption h1 {
     color: #FFFFFF;
     /*text-transform: uppercase;*/
-    font-weight: 800;
+    /*font-weight: 400;*/
     margin-right: 40px;
     font-size: 24px;}
 
   .caption h2 {
     color: #FFFFFF;
     /*text-transform: uppercase;*/
-    font-weight: 800;
+    font-weight: 400;
     margin-right: 40px;
     font-size: 14px;}
     /*text-shadow: 2px 2px 5px white; }*/

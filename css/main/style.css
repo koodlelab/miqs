@@ -74,7 +74,7 @@ p {
   /*background-size: 100% 50%; }*/
 
 .navbar {
-  min-height: 50px;
+  min-height: 30px;
   margin-bottom: 0 !important;
   background: #fff; }
 
@@ -122,7 +122,7 @@ p {
 
 @media (max-width: 1000px) {
   .navbar-nav > li > a {
-    padding: 16px;
+    padding: 7px;
     font-size: 14px; } }
 /*======= Caption ======*/
 .caption {

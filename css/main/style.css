@@ -7,8 +7,8 @@ html {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, san-serif;
   background: url(../../img/bg4.jpg) no-repeat fixed;
-  /*background-size: cover;*/
-  /*background-position: 100% 50%;*/
+  background-size: cover;
+  background-position: 100% 50%;
 }
 
 .banner-image {

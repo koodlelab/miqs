@@ -5,10 +5,26 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, san-serif;
+  font-family: "geomanist_regularregular";
   background: url(../../img/bg4.jpg) no-repeat fixed;
   background-size: cover;
   background-position: 100% 50%;
+}
+
+#capabilities {
+  float: left;
+  display: block;
+  padding: 20px 20px 20px 20px;
+  margin: 20px 0px 0px 60px;
+  position: relative;
+  /*border-radius: 2px;*/
+  border-radius: 15px 45px;
+  border: 1px #000080 solid;
+  border-color: #cccccc;
+  width: 167px;
+  height: 130px;
+  color: #002147;
+  font-size: 14px;
 }
 
 .banner-image {
@@ -21,7 +37,8 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 17px;
+  margin-top: 20px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -102,7 +119,7 @@ p {
   font-size: 16px;
   font-weight: normal;
   /*border-right: 1px solid #ccc;*/
-  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif; }
+  font-family: 'geomanist_regularregular', Helvetica, Arial, san-serif; }
                                                 /*text-transform: uppercase;*/
   /*font-family: 'Oswald', sans-serif; }*/
 
@@ -112,7 +129,7 @@ p {
   font-size: 14px;
   display: block;
   font-weight: normal;
-  font-family: 'Helvetica Neue', Helvetica, Arial, san-serif;
+  font-family: 'geomanist_regularregular', Helvetica, Arial, san-serif;
   text-transform: none; }
 
 .navbar-nav > li.active > a {
@@ -132,9 +149,9 @@ p {
   .caption h1 {
     color: #FFFFFF;
     /*text-transform: uppercase;*/
-    font-weight: 400;
+    font-weight: 500;
     margin-right: 40px;
-    font-size: 24px;}
+    font-size: 26px;}
 
   .caption h2 {
     color: #FFFFFF;
